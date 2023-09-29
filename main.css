@@ -1,0 +1,22 @@
+#tarefa{
+    background-color: rgb(84, 116, 219);
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin-right: 340px;
+    text-shadow: 1px 1px 1px grey;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#menu1{
+    margin-bottom: 30px;
+}
+
+#menu2{
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(175, 174, 174);
+    padding-left: 10px;
+}
