@@ -3,7 +3,7 @@
     color: white;
     font-size: 15px;
     padding: 15px;
-    margin-right: 340px;
+    margin-right: 440px;
     text-shadow: 1px 1px 1px grey;
     border-radius: 10px;
     border: none;
@@ -17,6 +17,28 @@
 #menu2{
     background-color: white;
     text-align: center;
-    box-shadow: 5px 5px 20px rgb(175, 174, 174);
+    box-shadow: 0px 0px 4px rgb(175, 174, 174);
     padding-left: 10px;
+    padding: 15px;
+}
+
+td{
+    padding: 15px;
+    padding-right: 20px;
+}
+
+td>span{
+    padding: 53px;
+    border: none;
+    color: grey;
+    font-weight: 600;
+    
+}
+
+#resultado{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: grey;   
+    
 }
