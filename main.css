@@ -1,44 +1,69 @@
-#tarefa{
-    background-color: rgb(84, 116, 219);
+.container{
+    width: 100%;
+    max-width: 720px;
+    margin: 3em auto 6em auto;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.main-header .btn-new-task{
+    background-color: #277fff;
     color: white;
-    font-size: 15px;
-    padding: 15px;
-    margin-right: 440px;
-    text-shadow: 1px 1px 1px grey;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
     border: none;
-    cursor: pointer;
 }
 
-#menu1{
-    margin-bottom: 30px;
+.main-header .btn-new-task:hover{
+    background-color: #0068ff;
 }
 
-#menu2{
-    background-color: white;
-    text-align: center;
-    box-shadow: 0px 0px 4px rgb(175, 174, 174);
-    padding-left: 10px;
-    padding: 15px;
-}
-
-td{
-    padding: 15px;
-    padding-right: 20px;
-}
-
-td>span{
-    padding: 53px;
-    border: none;
-    color: grey;
+.main-header .total-tasks{
+    color: #3d3d3d;
+    font-size: 0.9em;
     font-weight: 600;
-    
 }
 
-#resultado{
-    margin-top: 60px;
+
+.main-header #count-tasks{
+    color: #3d3d3d;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0 0.5rem;
+}
+
+table thead th{
+    background-color: #fff;
+    color: #969cb3;
+    opacity: 0.9;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+table tbody tr:first-child{
+    margin-top: 24px;
+}
+
+table tbody td{
+    background-color: #fff;
+    color: #83889a;
+    padding: 1.2em;
+    font-weight: 700;
+}
+
+#loading-message{
     text-align: center;
-    font-size: 25px;
-    color: grey;   
-    
+    color: #969cb3;
+    margin-top: 2em;
 }

@@ -7,31 +7,38 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
-    <title>Document</title>
+    <title>GoTasks</title>
 </head>
 <body>
-    <header>
+    <header class="titulo">
         <span>GoTasks</span>
     </header>
 
-    <main>
-        <div id = "menu1">
-            <button type="submit" id="tarefa">Nova tarefa</button>
-            <span>0 tarefas registradas</span></div>
-        </div>
+    <main class="container">
+        <header class="main-header">
+            <button class="btn-new-task">Nova tarefa</button>
+            <span class="total-tasks"><span id="count-tasks">0</span> tarefas registradas</span></div>
+        </header>  
         <table>
-            <tbody>
-                <tr id="menu2">
-                    <td>
-                        <span>Descrição da tarefa</span>
-                        <span>Data de criação</span>
-                        <span>Ações</span>
-                    </td>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Data</th>
+                    <th>Ações</th>
                 </tr>
+            </thead>
+
+            <tbody id="tabela">
+                <tr>
+                    <td>Estudar</td>
+                    <td>05.10.1994</td>
+                    <td><button type="submit">Excluir</button></td>
+                </tr>
+             
             </tbody>
     </table>
-
-    <h1 id = 'resultado'>Você não tem tarefas!</h1>
+    <h3 id="loading-message">Carrgando...</h3>
+    
     </main>
     <aside>
         <footer>
