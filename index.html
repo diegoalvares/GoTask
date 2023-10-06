@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="footer.css">
     <title>GoTasks</title>
 </head>
@@ -37,6 +38,21 @@
              
             </tbody>
     </table>
+
+    <div id="modal">
+        <form>
+            <h2>Criar Nova Tarefa</h2><br><br>
+            <label for="descricao">Descrição da Tarefa</label>
+            <input type="text" id="descricao">
+            <label for="data">Data</label>
+            <input type="date" id="data"><br><br>
+
+            <button id="cancelar">Cancelar</button>
+            <button id="enviar">Enviar</button>
+        </form>
+
+    </div>
+
     <h3 id="loading-message">Carrgando...</h3>
     
     </main>
