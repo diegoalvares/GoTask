@@ -28,6 +28,54 @@ form{
     padding: 2em;
 }
 
-form>button{
+form>input{
+    padding: 7px;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
 
+input:focus{
+    box-shadow: 0px 0px 5px rgb(85, 84, 84);
+}
+
+::placeholder{
+    color: rgb(172, 168, 168);
+}
+
+
+form>label{
+    font-weight: 700;
+    color: grey;
+}
+
+#botoes{
+    margin-left: 525px;
+}
+
+#cancelar{
+    margin-right: 20px;
+    background-color: rgb(190, 58, 58);
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 20px;
+}
+
+
+#cancelar:focus{
+    background-color: brown;
+}
+
+#salvar{
+    background-color: rgb(30, 119, 30);
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    font-size: 20px;
+}
+
+#salvar:focus{
+    background-color: rgb(12, 90, 12);
 }
