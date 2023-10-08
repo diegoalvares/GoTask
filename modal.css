@@ -12,6 +12,7 @@
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(2px);
+    display: none;
 }
 
 form{
@@ -68,6 +69,10 @@ form>label{
     background-color: brown;
 }
 
+#cancelar:hover{
+    background-color: rgb(233, 80, 80);
+}
+
 #salvar{
     background-color: rgb(30, 119, 30);
     color: white;
@@ -78,4 +83,8 @@ form>label{
 
 #salvar:focus{
     background-color: rgb(12, 90, 12);
+}
+
+#salvar:hover{
+    background-color: rgb(50, 167, 50);
 }

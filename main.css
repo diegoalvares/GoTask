@@ -63,7 +63,7 @@ table tbody td{
     font-weight: 700;
 }
 
-#loading-message{
+#carregando{
     text-align: center;
     color: #969cb3;
     margin-top: 2em;
