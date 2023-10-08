@@ -34,7 +34,7 @@ function innerHTMLTasks(task){
         <td>${task.description}</td>
         <td>${task.date}</td>
         <td>
-            <button onclick="removeTask(${task.id})"> Excluir </button>
+            <button onclick="removeTask(${task.id})" id="excluir"> Excluir </button>
         </td>
     `;     
     return html;

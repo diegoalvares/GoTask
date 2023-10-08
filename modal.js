@@ -21,9 +21,9 @@ function criartarefa(e){
 
     const allTasks = getTasks();
 
-    console.log('All Tasks: ', allTasks)
+    setTasks([...allTasks, newTask]);
 
-    localStorage.setItem('@GoTasks', JSON.stringify([ ...allTasks, newTask ]));
+    reload();
 
     fecharmodal();
 }

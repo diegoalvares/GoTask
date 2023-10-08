@@ -68,3 +68,21 @@ table tbody td{
     color: #969cb3;
     margin-top: 2em;
 }
+
+#excluir{
+    background-color: rgb(190, 58, 58);
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#excluir:focus{
+    background-color: brown;
+}
+
+#excluir:hover{
+    background-color: rgb(233, 80, 80);
+}
