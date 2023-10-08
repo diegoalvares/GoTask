@@ -2,6 +2,7 @@ const modal = document.getElementById('modal');
 const descricao = document.getElementById('descricao');
 const data = document.getElementById('data');
 const novatarefa = document.getElementById('salvar');
+const alertElement = document.getElementById('alert');
 
 novatarefa.addEventListener('click', criartarefa);
 
@@ -9,7 +10,8 @@ function criartarefa(e){
     e.preventDefault();
 
     if(!descricao.value || !data.value){
-        alert('Preencha todos os campos!')
+        alertElement.style.display = 'block';
+        closeAlert();
         return;
     }
 
@@ -42,4 +44,10 @@ function fecharmodal(){
 function limparcampos(){
     data.value = '';
     descricao.value= '';
+}
+
+function closeAlert(){
+    setTimeout(() => {
+        alertElement.style.display = 'none';
+    }, 3000);
 }
